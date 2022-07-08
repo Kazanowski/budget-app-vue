@@ -1,0 +1,20 @@
+$font-family: "Roboto", sans-serif;
+$base-font-size: 16px;
+$container-max-width: 1320px;
+$card-max-width: 540px;
+
+$color-gray: hsla(0, 0%, 0%, 0.3);
+$color-light: #f4f7f6;
+$color-dark: #212121;
+$color-white: #ffffff;
+
+:root {
+  --font-family: #{$font-family};
+  --base-font-size: #{$base-font-size};
+  --container-max-width: #{$container-max-width};
+  --card-max-width: #{$card-max-width};
+  --color-light: #{$color-light};
+  --color-gray: #{$color-gray};
+  --color-dark: #{$color-dark};
+  --color-white: #{$color-white};
+}
